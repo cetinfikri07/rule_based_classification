@@ -14,7 +14,7 @@ LASTLY WANTS KNOW HOW MUCH MONEY AN UPCOMING USER WILL PAY.
 
 # LOAD DATASET
 def load_dataset():
-    df = pd.read_csv("datasets/persona.csv")
+    df = pd.read_csv("persona.csv")
     return df
 
 df = load_dataset()
